@@ -1,0 +1,56 @@
+/*
+Mise en forme de la page
+*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+#div{
+    display: flex;
+}
+
+/*
+Mise en forme des éléments
+*/
+h1{
+    margin-bottom: 150px;
+    font-size: 3rem;
+    border-bottom: gray solid 1px;
+}
+.inputUser{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 50px;
+}
+.chiffresUser{
+    width: 60px;
+    height: 30px;
+}
+.numerosGagnants{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    background-color: forestgreen;
+    border-radius: 10px;
+    padding: 7px 15px;
+    color: ghostwhite;
+}
+#bonNum{
+    font-size: 1.5rem;
+    color: darkgreen;
+}
+.result{
+    margin-top: 50px;
+}
+button{
+    padding: 7px 15px;
+    background-color: gold;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
