@@ -7,7 +7,7 @@ Mise en forme de la page
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: 80vh; 
 }
 #div{
     display: flex;

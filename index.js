@@ -8,6 +8,9 @@ const chiffre5 = document.getElementById("chiffre5");
 
 
 
+console.log(Math.floor(Math.random() * 20));
+
+
 
 const checkResult = (tab) => {
     let bonneReponse = 0;
